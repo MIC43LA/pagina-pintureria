@@ -1,0 +1,15 @@
+p{
+    margin: 0 !important;
+    color: white !important;
+}
+.navbar-expand-lg{
+    height: 50px !important;
+}
+ .dropdown-item:hover{
+    color: aliceblue !important;
+    background-color: rgb(21, 105, 179) !important;
+
+}
+.dropdown-item{
+    color: black !important;
+}
