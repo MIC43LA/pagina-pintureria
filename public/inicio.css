@@ -1,6 +1,6 @@
 p{
     margin: 0 !important;
-    color: white !important;
+    color: white ;
 }
 .navbar-expand-lg{
     height: 50px !important;
@@ -120,4 +120,8 @@ a.btn btn-primary{
         .shipping-description h4{
           font-weight: bold;
          }
-   
+
+         .shipping-description p{
+
+            color: var(--primary-color);
+         }
