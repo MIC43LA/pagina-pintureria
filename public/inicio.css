@@ -1,6 +1,6 @@
 p{
     margin: 0 !important;
-    color: white !important;
+    color: white ;
 }
 .navbar-expand-lg{
     height: 50px !important;
@@ -13,3 +13,115 @@ p{
 .dropdown-item{
     color: black !important;
 }
+:root {
+    --primary-color: #4585BD;
+    --secondary-color: #03dac6;
+    --font-size-large: 70px;
+    --font-size-medium: 40px;
+    --font-size-small: 16px;
+    --font-weight-large: 900;
+
+}
+.sale{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+   
+}
+
+a.btn btn-primary{
+    margin: 60px;
+}
+
+.sale h2{
+
+    font-weight: var(--font-weight-large);
+    text-align: center;
+    letter-spacing: -0.05em;
+    font-size: var(--font-size-large);
+}
+
+
+        @media (max-width: 1024px) {
+    
+            .sale h2{
+
+                font-weight: var(--font-weight-large);
+                text-align: center;
+                letter-spacing: -0.05em;
+                font-size: var(--font-size-medium);
+            }
+          
+        }
+
+    
+        @media (max-width: 600px) {
+            .sale{
+              
+                display: block;
+                align-items: center;
+                padding: 30px;
+                justify-content: space-between;
+               
+            }
+            
+            .sale h2{
+                
+                font-weight: var(--font-weight-large);
+                text-align: center;
+                letter-spacing: -0.05em;
+                font-size: var(--font-size-medium);
+            }
+
+            div.shipping-container{
+                display: block;
+                align-items: center;
+               
+            }
+
+           
+        }
+
+        .shipping-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .shipping-description{
+            display: block;
+        }
+
+        .shipping-group{
+            display: flex;
+        }
+    
+        .icon-container {
+            display: inline-block;
+            margin: 5px 10px 5px 10px;
+            width: 40px; 
+            height: 40px; 
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid var(--primary-color)
+        }
+        .delivery-banner{
+            padding: 50px;
+         
+        }
+
+        .shipping-description h4, .shipping-description p{
+           font-size: var(--font-size-small);
+           margin: 0;
+        }
+
+        .shipping-description h4{
+          font-weight: bold;
+         }
+
+         .shipping-description p{
+
+            color: var(--primary-color);
+         }
