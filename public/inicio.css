@@ -1,0 +1,57 @@
+.w-full {
+    width: 100% !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.box-descuento {
+    background-color: #B0E171;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.box-linea-exclusiva {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev{
+    background: #B0E171 !important;
+}
