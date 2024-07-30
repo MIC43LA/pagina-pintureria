@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/inicio.css">
-    <script src="public/jspint.js"></script>
-    <link rel="stylesheet" href="public/bootstrap.min.css">
-    <!-- bootstrap ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <link rel="stylesheet" href="./public/destacados.css">
-    <title>Pinturerias Home Color</title>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="public/inicio.css">
+        <script src="public/jspint.js"></script>
+        <link rel="stylesheet" href="public/bootstrap.min.css">
+        <!-- bootstrap ICONS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <link rel="stylesheet" href="./public/destacados.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <title>Pinturerias Home Color</title>
 </head>
 
 <body>
@@ -40,31 +44,30 @@
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-light px" style="background-color:#2780e3;">
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Categorias
-                                </a>
-                                <ul class="dropdown-menu " style="background-color:#2780e3;"
-                                    aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="pinturas.html">Pinturas</a></li>
-                                    <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
-                                </ul>
-                            </li>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="z-index: 100;">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu" style="background-color:#2780e3;"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="pinturas.html">Pinturas</a></li>
+                            <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
                         </ul>
-                    </div>
+                    </li>
+                </ul>
             </div>
+        </div>
     </nav>
+
     <main>
         <div class="cont" style="min-height: 90vh;">
             <section class="principal-banner">
@@ -189,57 +192,58 @@
                 </div>
             </section>
         </div>
-<!-- ******************************************************************************************************** -->
+        <!-- ******************************************************************************************************** -->
         <!-- ----------------INICIO / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
-    <div class="container mt-4">
-        <h2 class="text-left" style="color: var(--primary-color);">PRODUCTOS dESTACADOS</h2>
-        <div class="row">
-            <!-- TARJETA N1 -->
-            <div class="col-md-4">
-                <div class="featured-product">
-                    <img src="./assets/imgs/prod1.jpg" alt="Producto 1">
-                    <div class="overlay">
-                        <h3>Combos Especiales</h3>
-                        <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+        <div class="container mt-4">
+            <h2 class="text-left" style="color: var(--primary-color);">PRODUCTOS dESTACADOS</h2>
+            <div class="row">
+                <!-- TARJETA N1 -->
+                <div class="col-md-4">
+                    <div class="featured-product">
+                        <img src="./assets/imgs/prod1.jpg" alt="Producto 1">
+                        <div class="overlay">
+                            <h3>Combos Especiales</h3>
+                            <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- TARJETA N°2 -->
+                <div class="col-md-4">
+                    <div class="featured-product">
+                        <img src="./assets/imgs/prod2.png" alt="Producto 2">
+                        <div class="overlay">
+                            <h3>Lineas Especiales</h3>
+                            <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- TARJETA N|3 -->
+                <div class="col-md-4">
+                    <div class="featured-product">
+                        <img src="./assets/imgs/prod3.jpg" alt="Producto 3">
+                        <div class="overlay">
+                            <h3>Renova tus ambientes</h3>
+                            <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- TARJETA N°2 -->
-            <div class="col-md-4">
-                <div class="featured-product">
-                    <img src="./assets/imgs/prod2.png" alt="Producto 2">
-                    <div class="overlay">
-                        <h3>Lineas Especiales</h3>
-                        <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
-                    </div>
-                </div>
-            </div>
-            <!-- TARJETA N|3 -->
-            <div class="col-md-4">
-                <div class="featured-product">
-                    <img src="./assets/imgs/prod3.jpg" alt="Producto 3">
-                    <div class="overlay">
-                        <h3>Renova tus ambientes</h3>
-                        <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
-                    </div>
-                </div>
+
+            <!-- LA SUSCRIPCION AL CORREO -->
+            <div class="newsletter mt-4">
+                <i class="bi bi-mailbox-flag" style="font-size: 2rem; color: var(--primary-color);"></i>
+                <h4>Suscribete a nuestro boletín</h4>
+                <input type="email" class="form-control w-50 mx-auto border border-primary"
+                    placeholder="Ingresa tu email">
+                <button class="btn btn-primary mt-2" id="btn-suscribirse">Suscribirse</button>
+                <p>¡Se el primero en conocer ofertaa semanales!</p>
             </div>
         </div>
 
-        <!-- LA SUSCRIPCION AL CORREO -->
-        <div class="newsletter mt-4">
-            <i class="bi bi-mailbox-flag" style="font-size: 2rem; color: var(--primary-color);"></i>
-            <h4>Suscribete a nuestro boletín</h4>
-            <input type="email" class="form-control w-50 mx-auto border border-primary" placeholder="Ingresa tu email">
-            <button class="btn btn-primary mt-2" id="btn-suscribirse">Suscribirse</button>
-            <p>¡Se el primero en conocer ofertaa semanales!</p>
-        </div>
-    </div>
 
 
-
-    <!-- ----------------FIN / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
-<!-- ******************************************************************************************************** -->
+        <!-- ----------------FIN / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
+        <!-- ******************************************************************************************************** -->
     </main>
     <footer class="footer" lang="es" style="background-color: #2780e3 ;">
         <div class="row p-0 m-0">
@@ -269,9 +273,6 @@
             </div>
         </div>
         </nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
         <script src="./public/jspint.js"></script>
 </body>
 

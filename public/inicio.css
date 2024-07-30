@@ -13,6 +13,11 @@ p{
 .dropdown-item{
     color: black !important;
 }
+.nav-link.dropdown-toggle{
+       
+        background-color:#2780e3  ;
+} 
+
 :root {
     --primary-color: #4585BD;
     --secondary-color: #03dac6;
