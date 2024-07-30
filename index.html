@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="public/inicio.css">
-        <script src="public/jspint.js"></script>
-        <link rel="stylesheet" href="public/bootstrap.min.css">
-        <!-- bootstrap ICONS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel='stylesheet'
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel='stylesheet'
         href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <link rel="stylesheet" href="./public/destacados.css">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-        <title>Pinturerias Home Color</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="./public/styles/inicio.css">
+    <link rel="stylesheet" href="./public/styles/destacados.css">
+    <link rel="stylesheet" href="./public/styles/bootstrap.min.css">
+
+    <title>Pinturerias Home Color</title>
 </head>
+
 
 <body>
     <nav class="navbar navbar-light bg-light">
@@ -69,7 +74,7 @@
     </nav>
 
     <main>
-        <div class="cont" style="min-height: 90vh;">
+        <div class="cont">
             <section class="principal-banner">
                 <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
@@ -192,88 +197,330 @@
                 </div>
             </section>
         </div>
-        <!-- ******************************************************************************************************** -->
-        <!-- ----------------INICIO / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
-        <div class="container mt-4">
-            <h2 class="text-left" style="color: var(--primary-color);">PRODUCTOS dESTACADOS</h2>
-            <div class="row">
-                <!-- TARJETA N1 -->
-                <div class="col-md-4">
-                    <div class="featured-product">
-                        <img src="./assets/imgs/prod1.jpg" alt="Producto 1">
-                        <div class="overlay">
-                            <h3>Combos Especiales</h3>
-                            <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+
+
+        <div class="px-3 px-md-5 mb-5">
+            <div class="mb-5">
+                <div class="fondo-slider p-4">
+                    <h2 class="text-white mb-4">¡Conocé nuestras mejores ofertas!</h2>
+
+                    <div class="carrousel">
+                        <div class="card border-0 bg-white m-2">
+                            <div class="card-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 m-auto"
+                                    style="max-width: 200px;">
+                                    <div class="position-relative">
+                                        <img class="icon-size-witdh" src="./assets/imgs/lata1.png" alt="">
+                                        <div class=" box-descuento lh-1">
+                                            <p class="m-0 text-white fs-5 fw-semibold">25%</p>
+                                            <p class="m-0 text-white fw-semibold">OFF</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-center">Pintura impregnante para ladrillos Brikol 1L</p>
+                                        <p class="m-0"><del>$1732</del></p>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-secondary text-center">desde</p>
+                                        <p class="m-0 fs-5 fw-bold">$1.299</p>
+                                    </div>
+                                    <button class="btn btn-success fw-semibold opacity-75 w-full">AGREGAR</button>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/imgs/corazon-card.png" class="cursor-pointer" alt="">
+                                        <img src="./assets/imgs/medida-card.png" class="cursor-pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 bg-white m-2">
+                            <div class="card-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 m-auto"
+                                    style="max-width: 200px;">
+                                    <div class="position-relative">
+                                        <img class="icon-size-witdh" src="./assets/imgs/lata2.png" alt="">
+                                        <div class=" box-descuento lh-1">
+                                            <p class="m-0 text-white fs-5 fw-semibold">25%</p>
+                                            <p class="m-0 text-white fw-semibold">OFF</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-center">Pintura esmalte sintético brillante Alba 20L</p>
+                                        <p class="m-0"><del>$13310</del></p>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-secondary text-center">desde</p>
+                                        <p class="m-0 fs-5 fw-bold">$9.982</p>
+                                    </div>
+                                    <button class="btn btn-success fw-semibold opacity-75 w-full">AGREGAR</button>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/imgs/corazon-card.png" class="cursor-pointer" alt="">
+                                        <img src="./assets/imgs/medida-card.png" class="cursor-pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 bg-white m-2">
+                            <div class="card-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 m-auto"
+                                    style="max-width: 200px;">
+                                    <div class="position-relative">
+                                        <img class="icon-size-witdh" src="./assets/imgs/lata3.png" alt="">
+                                        <div class=" box-descuento lh-1">
+                                            <p class="m-0 text-white fs-5 fw-semibold">25%</p>
+                                            <p class="m-0 text-white fw-semibold">OFF</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-center">Pintura sintético mate PILETAS Alba 4L</p>
+                                        <p class="m-0"><del> $3599</del></p>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-secondary text-center">desde</p>
+                                        <p class="m-0 fs-5 fw-bold">$2.699</p>
+                                    </div>
+                                    <button class="btn btn-success fw-semibold opacity-75 w-full">AGREGAR</button>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/imgs/corazon-card.png" class="cursor-pointer" alt="">
+                                        <img src="./assets/imgs/medida-card.png" class="cursor-pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 bg-white m-2">
+                            <div class="card-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 m-auto"
+                                    style="max-width: 200px;">
+                                    <div class="position-relative">
+                                        <img class="icon-size-witdh" src="./assets/imgs/lata4.png" alt="">
+                                        <div class=" box-descuento lh-1">
+                                            <p class="m-0 text-white fs-5 fw-semibold">25%</p>
+                                            <p class="m-0 text-white fw-semibold">OFF</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-center">Impermeabilizante Venier Antihumedad 1Kg</p>
+                                        <p class="m-0"><del>$2837</del></p>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-secondary text-center">desde</p>
+                                        <p class="m-0 fs-5 fw-bold">$2.128</p>
+                                    </div>
+                                    <button class="btn btn-success fw-semibold opacity-75 w-full">AGREGAR</button>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/imgs/corazon-card.png" class="cursor-pointer" alt="">
+                                        <img src="./assets/imgs/medida-card.png" class="cursor-pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 bg-white m-2">
+                            <div class="card-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 m-auto"
+                                    style="max-width: 200px;">
+                                    <div class="position-relative">
+                                        <img class="icon-size-witdh" src="./assets/imgs/lata5.png" alt="">
+                                        <div class=" box-descuento lh-1">
+                                            <p class="m-0 text-white fs-5 fw-semibold">25%</p>
+                                            <p class="m-0 text-white fw-semibold">OFF</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-center">Látex Toque de Luz interior Alba 4L</p>
+                                        <p class="m-0"><del>$5103</del></p>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-secondary text-center">desde</p>
+                                        <p class="m-0 fs-5 fw-bold">$3.827</p>
+                                    </div>
+                                    <button class="btn btn-success fw-semibold opacity-75 w-full">AGREGAR</button>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/imgs/corazon-card.png" class="cursor-pointer" alt="">
+                                        <img src="./assets/imgs/medida-card.png" class="cursor-pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 bg-white m-2">
+                            <div class="card-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 m-auto"
+                                    style="max-width: 200px;">
+                                    <div class="position-relative">
+                                        <img class="icon-size-witdh" src="./assets/imgs/lata6.png" alt="">
+                                        <div class=" box-descuento lh-1">
+                                            <p class="m-0 text-white fs-5 fw-semibold">25%</p>
+                                            <p class="m-0 text-white fw-semibold">OFF</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-center">Látex para Cielorraso mate Colorín 4L</p>
+                                        <p class="m-0"><del>$2109</del></p>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="m-0 text-secondary text-center">desde</p>
+                                        <p class="m-0 fs-5 fw-bold">$1.582</p>
+                                    </div>
+                                    <button class="btn btn-success fw-semibold opacity-75 w-full">AGREGAR</button>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/imgs/corazon-card.png" class="cursor-pointer" alt="">
+                                        <img src="./assets/imgs/medida-card.png" class="cursor-pointer" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                <!-- TARJETA N°2 -->
-                <div class="col-md-4">
-                    <div class="featured-product">
-                        <img src="./assets/imgs/prod2.png" alt="Producto 2">
-                        <div class="overlay">
-                            <h3>Lineas Especiales</h3>
-                            <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- TARJETA N|3 -->
-                <div class="col-md-4">
-                    <div class="featured-product">
-                        <img src="./assets/imgs/prod3.jpg" alt="Producto 3">
-                        <div class="overlay">
-                            <h3>Renova tus ambientes</h3>
-                            <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+            </div>
+
+            <div class="mb-5">
+                <div>
+                    <div class="background-img">
+                        <div style="max-width: 450px;">
+                            <p class="m-0 fs-3 fw-semibold text-white mb-3">LÍNEA EXCLUSIVA DE PRODUCTOS HOME COLOR</p>
+                            <p class="m-0 text-white cursor-pointer w-max-content">Ver más</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- LA SUSCRIPCION AL CORREO -->
-            <div class="newsletter mt-4">
-                <i class="bi bi-mailbox-flag" style="font-size: 2rem; color: var(--primary-color);"></i>
-                <h4>Suscribete a nuestro boletín</h4>
-                <input type="email" class="form-control w-50 mx-auto border border-primary"
-                    placeholder="Ingresa tu email">
-                <button class="btn btn-primary mt-2" id="btn-suscribirse">Suscribirse</button>
-                <p>¡Se el primero en conocer ofertaa semanales!</p>
+            <div class="d-flex flex-column gap-4 mb-5">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-6 h-img-card">
+                            <img src="./assets/imgs/card1.png"
+                                class="img-fluid w-100 h-100 object-fit-cover rounded-custom-1" alt="...">
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div class="card-body p-3 p-sm-5">
+                                <h5 class="card-title mb-4 text-primary">Color del año 2022 - Coulis de Arándano</h5>
+                                <p class="card-text mb-4">Cada año, los expertos en color de Alba reflejan las
+                                    tendencias
+                                    de diseño globales en un nuevo Color del año. La tonalidad para
+                                    2022 es Coulis de Arándano™. Es un tono ligero y fresco que abre
+                                    y da nueva vida a cualquier espacio. Descubre cómo puedes
+                                    utilizar esta tonalidad transformadora y sus cuatro paletas de
+                                    color complementario para reinventar tu hogar.</p>
+                                <button class="btn btn-outline-primary">Más información</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card ">
+                    <div class="row g-0">
+                        <div class="col-md-6 h-img-card">
+                            <img src="./assets/imgs/card2.png"
+                                class="img-fluid w-100 h-100 object-fit-cover rounded-custom-1" alt="...">
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div class="card-body p-3 p-sm-5">
+                                <h5 class="card-title mb-4 text-primary">Nueva Línea Design Personalizá tu mundo con
+                                    paredes
+                                    en HD.</h5>
+                                <p class="card-text mb-4">3 terminaciones perfectas, 4 efectos especiales y colores más
+                                    puros.
+                                    Con la nueva Línea Design podés transformar tus paredes
+                                    en una experiencia única y exclusiva. </p>
+                                <button class="btn btn-outline-primary">Más información</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div>
+                <h2 class="text-left" style="color: var(--primary-color);">PRODUCTOS DESTACADOS</h2>
+                <div class="row">
+                    <!-- TARJETA N1 -->
+                    <div class="col-md-4">
+                        <div class="featured-product">
+                            <img src="./assets/imgs/prod1.jpg" alt="Producto 1">
+                            <div class="overlay">
+                                <h3>Combos Especiales</h3>
+                                <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TARJETA N°2 -->
+                    <div class="col-md-4">
+                        <div class="featured-product">
+                            <img src="./assets/imgs/prod2.png" alt="Producto 2">
+                            <div class="overlay">
+                                <h3>Lineas Especiales</h3>
+                                <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TARJETA N|3 -->
+                    <div class="col-md-4">
+                        <div class="featured-product">
+                            <img src="./assets/imgs/prod3.jpg" alt="Producto 3">
+                            <div class="overlay">
+                                <h3>Renova tus ambientes</h3>
+                                <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- LA SUSCRIPCION AL CORREO -->
+                <div class="newsletter mt-4">
+                    <i class="bi bi-mailbox-flag" style="font-size: 2rem; color: var(--primary-color);"></i>
+                    <h4>Suscribete a nuestro boletín</h4>
+                    <input type="email" class="form-control w-50 mx-auto border border-primary"
+                        placeholder="Ingresa tu email">
+                    <button class="btn btn-primary mt-2" id="btn-suscribirse">Suscribirse</button>
+                    <p>¡Se el primero en conocer ofertaa semanales!</p>
+                </div>
+            </div>
+
+
         </div>
 
+        <footer class="footer" lang="es" style="background-color: #2780e3 ;">
+            <div class="row p-0 m-0">
+                <div class="col">
+                    <img class="footer-logo" src="assets/imgs/logo-pint.png" alt="Logo de la empresa">
+                </div>
+                <div class="col">
 
 
-        <!-- ----------------FIN / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
-        <!-- ******************************************************************************************************** -->
+                    <p>
+                        Contacto:
+                    </p>
+                    <p>
+                        <a href="#" class="link-light">Telefono:2211234567 </a>
+                    </p>
+                    <p>
+                        <a href="#" class="link-light"> Correo Electronico: homecolorpinturerias@gmail.com </a>
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        Todos los derechos reservados
+                    </p>
+                    <p>
+                        Defensa del Consumidor: Ventanilla Federal única de Reclamos de Defensa del Consumidor
+                    </p>
+                </div>
+            </div>
+        </footer>
+
     </main>
-    <footer class="footer" lang="es" style="background-color: #2780e3 ;">
-        <div class="row p-0 m-0">
-            <div class="col">
-                <img class="footer-logo" src="assets/imgs/logo-pint.png" alt="Logo de la empresa">
-            </div>
-            <div class="col">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./public/js/jspint.js"></script>
+    <script src="./public/js/carrousel.js"></script>
 
-
-                <p>
-                    Contacto:
-                </p>
-                <p>
-                    <a href="#" class="link-light">Telefono:2211234567 </a>
-                </p>
-                <p>
-                    <a href="#" class="link-light"> Correo Electronico: homecolorpinturerias@gmail.com </a>
-                </p>
-            </div>
-            <div class="col">
-                <p>
-                    Todos los derechos reservados
-                </p>
-                <p>
-                    Defensa del Consumidor: Ventanilla Federal única de Reclamos de Defensa del Consumidor
-                </p>
-            </div>
-        </div>
-        </nav>
-        <script src="./public/jspint.js"></script>
 </body>
 
 </html>
