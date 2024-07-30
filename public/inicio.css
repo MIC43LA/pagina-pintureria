@@ -1,3 +1,5 @@
+@import 'swiper/swiper-bundle.min.css';
+
 .w-full {
     width: 100% !important;
 }
@@ -6,11 +8,15 @@
     cursor: pointer;
 }
 
+.w-max-content {
+    width: max-content;
+}
+
 .box-descuento {
     background-color: #B0E171;
     position: absolute;
-    top: -15px;
-    left: 0;
+    top: -6px;
+    left: 14px;
     width: 70px;
     height: 70px;
     display: flex;
@@ -30,28 +36,27 @@
     max-width: 500px;
 }
 
-swiper-container {
+.background-img{
+    background-image: url('./assets/banner-linea-exclusiva.png');
     width: 100%;
-    height: 100%;
-}
-
-swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
-swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.fondo-slider{
+    background-color: #2780e3;
 }
 
-.mySwiper .swiper-button-next,
-.mySwiper .swiper-button-prev{
-    background: #B0E171 !important;
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 992px) {
+    .fondo-slider {
+        background-color: #ffffff;
+    }
 }
